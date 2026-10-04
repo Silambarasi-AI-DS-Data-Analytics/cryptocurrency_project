@@ -1,0 +1,14 @@
+# Cryptocurrency Price Tracker - runtime dependencies
+#
+# Only packages that are actually imported by the project are listed here.
+# The unit tests use the standard library "unittest", so no test runner
+# dependency is required.
+
+# Browser automation
+selenium>=4.25.0
+
+# Downloads a matching ChromeDriver automatically
+webdriver-manager>=4.0.2
+
+# CSV reading and writing
+pandas>=2.0.0
