@@ -1,0 +1,1748 @@
+2026-10-02 10:57:21,372 - csv_handler - INFO - Filtered by min price > 1000: 2 records found
+2026-10-02 10:57:21,378 - csv_handler - INFO - Filtered by min change > 0%: 1 records found
+2026-10-02 10:57:21,389 - csv_handler - WARNING - No data available for filtering
+2026-10-02 10:57:21,395 - csv_handler - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-02 10:57:21,395 - csv_handler - INFO - Filtered by min change > 0%: 2 records found
+2026-10-02 10:57:21,403 - csv_handler - INFO - Filtered by min price > 1000: 2 records found
+2026-10-02 11:40:30,734 - csv_handler - INFO - Starting cryptocurrency price tracker...
+2026-10-02 11:40:30,734 - csv_handler - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-02 11:40:30,734 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-02 11:40:30,734 - csv_handler - INFO - Chrome will run in visible mode
+2026-10-02 11:40:30,734 - WDM - INFO - ====== WebDriver manager ======
+2026-10-02 11:40:36,851 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-02 11:40:37,232 - WDM - INFO - There is no [win64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-10-02 11:40:40,139 - WDM - INFO - There is no [win64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-10-02 11:40:40,139 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-02 11:40:41,108 - WDM - INFO - WebDriver version 149.0.7827.155 selected
+2026-10-02 11:40:41,127 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-10-02 11:40:41,127 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-10-02 11:40:42,439 - WDM - INFO - Driver downloading response is 200
+2026-10-02 11:40:54,282 - WDM - INFO - Driver has been saved in cache [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-10-02 11:40:57,682 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-02 11:40:57,682 - csv_handler - INFO - Navigating to https://coinmarketcap.com/
+2026-10-02 11:41:41,053 - csv_handler - ERROR - WebDriver error: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff728093fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff728094000+14980]
+	chromedriver!(No symbol) [0x7ff727bd793d]
+	chromedriver!(No symbol) [0x7ff727bd44ce]
+	chromedriver!(No symbol) [0x7ff727bc4711]
+	chromedriver!(No symbol) [0x7ff727bc657f]
+	chromedriver!(No symbol) [0x7ff727bc4cb3]
+	chromedriver!(No symbol) [0x7ff727bc447b]
+	chromedriver!(No symbol) [0x7ff727bc4131]
+	chromedriver!(No symbol) [0x7ff727bc1e01]
+	chromedriver!(No symbol) [0x7ff727bc2562]
+	chromedriver!(No symbol) [0x7ff727bdbbe6]
+	chromedriver!(No symbol) [0x7ff727c801c4]
+	chromedriver!(No symbol) [0x7ff727c5a3ca]
+	chromedriver!(No symbol) [0x7ff727c7f39b]
+	chromedriver!(No symbol) [0x7ff727c2401c]
+	chromedriver!(No symbol) [0x7ff727c24f43]
+	chromedriver!GetHandleVerifier [0x7ff728677591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff728671902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff728697115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7280b1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7280ba82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff72809d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff72809d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff728081447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffc27c9cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ffc28e3ee4c+2c]
+
+2026-10-02 11:41:41,056 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-02 11:41:43,398 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-02 11:41:43,399 - csv_handler - ERROR - Tracking failed: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff728093fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff728094000+14980]
+	chromedriver!(No symbol) [0x7ff727bd793d]
+	chromedriver!(No symbol) [0x7ff727bd44ce]
+	chromedriver!(No symbol) [0x7ff727bc4711]
+	chromedriver!(No symbol) [0x7ff727bc657f]
+	chromedriver!(No symbol) [0x7ff727bc4cb3]
+	chromedriver!(No symbol) [0x7ff727bc447b]
+	chromedriver!(No symbol) [0x7ff727bc4131]
+	chromedriver!(No symbol) [0x7ff727bc1e01]
+	chromedriver!(No symbol) [0x7ff727bc2562]
+	chromedriver!(No symbol) [0x7ff727bdbbe6]
+	chromedriver!(No symbol) [0x7ff727c801c4]
+	chromedriver!(No symbol) [0x7ff727c5a3ca]
+	chromedriver!(No symbol) [0x7ff727c7f39b]
+	chromedriver!(No symbol) [0x7ff727c2401c]
+	chromedriver!(No symbol) [0x7ff727c24f43]
+	chromedriver!GetHandleVerifier [0x7ff728677591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff728671902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff728697115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7280b1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7280ba82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff72809d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff72809d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff728081447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffc27c9cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ffc28e3ee4c+2c]
+Traceback (most recent call last):
+  File "E:\price\main.py", line 109, in run
+    self.scraped_data = scrape_crypto_prices(headless=self.headless)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 492, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 433, in scrape_top_coins
+    self.driver.get(COINMARKETCAP_URL)
+  File "C:\Users\barat\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 526, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\barat\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 506, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\barat\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff728093fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff728094000+14980]
+	chromedriver!(No symbol) [0x7ff727bd793d]
+	chromedriver!(No symbol) [0x7ff727bd44ce]
+	chromedriver!(No symbol) [0x7ff727bc4711]
+	chromedriver!(No symbol) [0x7ff727bc657f]
+	chromedriver!(No symbol) [0x7ff727bc4cb3]
+	chromedriver!(No symbol) [0x7ff727bc447b]
+	chromedriver!(No symbol) [0x7ff727bc4131]
+	chromedriver!(No symbol) [0x7ff727bc1e01]
+	chromedriver!(No symbol) [0x7ff727bc2562]
+	chromedriver!(No symbol) [0x7ff727bdbbe6]
+	chromedriver!(No symbol) [0x7ff727c801c4]
+	chromedriver!(No symbol) [0x7ff727c5a3ca]
+	chromedriver!(No symbol) [0x7ff727c7f39b]
+	chromedriver!(No symbol) [0x7ff727c2401c]
+	chromedriver!(No symbol) [0x7ff727c24f43]
+	chromedriver!GetHandleVerifier [0x7ff728677591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff728671902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff728697115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7280b1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7280ba82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff72809d744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff72809d8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff728081447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffc27c9cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ffc28e3ee4c+2c]
+
+2026-10-03 06:54:30,068 - csv_handler - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 06:54:30,072 - csv_handler - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 06:54:30,078 - csv_handler - WARNING - No data available for filtering
+2026-10-03 06:54:30,080 - csv_handler - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 06:54:30,086 - csv_handler - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 06:54:30,089 - csv_handler - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 06:54:43,383 - csv_handler - INFO - Starting cryptocurrency price tracker...
+2026-10-03 06:54:43,383 - csv_handler - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-03 06:54:43,385 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-03 06:54:43,385 - csv_handler - INFO - Chrome will run in visible mode
+2026-10-03 06:54:43,385 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 06:54:52,227 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-03 06:54:56,782 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-03 06:54:57,495 - WDM - INFO - WebDriver version 149.0.7827.155 selected
+2026-10-03 06:54:57,508 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-10-03 06:54:57,508 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-10-03 06:54:58,234 - WDM - INFO - Driver downloading response is 200
+2026-10-03 06:55:04,611 - WDM - INFO - Driver has been saved in cache [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-10-03 06:55:06,893 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 06:55:06,893 - csv_handler - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 06:55:06,893 - csv_handler - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 06:55:49,830 - csv_handler - WARNING - Navigation attempt 1/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+2026-10-03 06:55:49,830 - csv_handler - INFO - Waiting 5s before retry 2/3...
+2026-10-03 06:55:54,832 - csv_handler - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 06:56:12,485 - csv_handler - WARNING - Navigation attempt 2/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+2026-10-03 06:56:12,485 - csv_handler - INFO - Waiting 5s before retry 3/3...
+2026-10-03 06:56:17,487 - csv_handler - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 06:56:56,361 - csv_handler - WARNING - Navigation attempt 3/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+2026-10-03 06:56:56,361 - csv_handler - ERROR - Navigation to https://coinmarketcap.com/ failed after 3 attempts
+2026-10-03 06:56:56,363 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-03 06:56:58,781 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-03 06:56:58,781 - csv_handler - ERROR - WebDriver error: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7cb9c3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7cb9c4000+14980]
+	chromedriver!(No symbol) [0x7ff7cb50793d]
+	chromedriver!(No symbol) [0x7ff7cb5044ce]
+	chromedriver!(No symbol) [0x7ff7cb4f4711]
+	chromedriver!(No symbol) [0x7ff7cb4f657f]
+	chromedriver!(No symbol) [0x7ff7cb4f4cb3]
+	chromedriver!(No symbol) [0x7ff7cb4f447b]
+	chromedriver!(No symbol) [0x7ff7cb4f4131]
+	chromedriver!(No symbol) [0x7ff7cb4f1e01]
+	chromedriver!(No symbol) [0x7ff7cb4f2562]
+	chromedriver!(No symbol) [0x7ff7cb50bbe6]
+	chromedriver!(No symbol) [0x7ff7cb5b01c4]
+	chromedriver!(No symbol) [0x7ff7cb58a3ca]
+	chromedriver!(No symbol) [0x7ff7cb5af39b]
+	chromedriver!(No symbol) [0x7ff7cb55401c]
+	chromedriver!(No symbol) [0x7ff7cb554f43]
+	chromedriver!GetHandleVerifier [0x7ff7cbfa7591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7cbfa1902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7cbfc7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7cb9e1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7cb9ea82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7cb9cd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7cb9cd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7cb9b1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffc27c9cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ffc28e3ee4c+2c]
+
+
+2026-10-03 06:56:58,782 - csv_handler - ERROR - Tracking failed: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7cb9c3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7cb9c4000+14980]
+	chromedriver!(No symbol) [0x7ff7cb50793d]
+	chromedriver!(No symbol) [0x7ff7cb5044ce]
+	chromedriver!(No symbol) [0x7ff7cb4f4711]
+	chromedriver!(No symbol) [0x7ff7cb4f657f]
+	chromedriver!(No symbol) [0x7ff7cb4f4cb3]
+	chromedriver!(No symbol) [0x7ff7cb4f447b]
+	chromedriver!(No symbol) [0x7ff7cb4f4131]
+	chromedriver!(No symbol) [0x7ff7cb4f1e01]
+	chromedriver!(No symbol) [0x7ff7cb4f2562]
+	chromedriver!(No symbol) [0x7ff7cb50bbe6]
+	chromedriver!(No symbol) [0x7ff7cb5b01c4]
+	chromedriver!(No symbol) [0x7ff7cb58a3ca]
+	chromedriver!(No symbol) [0x7ff7cb5af39b]
+	chromedriver!(No symbol) [0x7ff7cb55401c]
+	chromedriver!(No symbol) [0x7ff7cb554f43]
+	chromedriver!GetHandleVerifier [0x7ff7cbfa7591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7cbfa1902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7cbfc7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7cb9e1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7cb9ea82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7cb9cd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7cb9cd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7cb9b1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffc27c9cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ffc28e3ee4c+2c]
+
+Traceback (most recent call last):
+  File "E:\price\main.py", line 109, in run
+    self.scraped_data = scrape_crypto_prices(headless=self.headless)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 554, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 496, in scrape_top_coins
+    self._navigate_with_retry(COINMARKETCAP_URL)
+  File "E:\price\scraper.py", line 165, in _navigate_with_retry
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=149.0.7827.103)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7cb9c3fa5+14925]
+	chromedriver!GetHandleVerifier [0x7ff7cb9c4000+14980]
+	chromedriver!(No symbol) [0x7ff7cb50793d]
+	chromedriver!(No symbol) [0x7ff7cb5044ce]
+	chromedriver!(No symbol) [0x7ff7cb4f4711]
+	chromedriver!(No symbol) [0x7ff7cb4f657f]
+	chromedriver!(No symbol) [0x7ff7cb4f4cb3]
+	chromedriver!(No symbol) [0x7ff7cb4f447b]
+	chromedriver!(No symbol) [0x7ff7cb4f4131]
+	chromedriver!(No symbol) [0x7ff7cb4f1e01]
+	chromedriver!(No symbol) [0x7ff7cb4f2562]
+	chromedriver!(No symbol) [0x7ff7cb50bbe6]
+	chromedriver!(No symbol) [0x7ff7cb5b01c4]
+	chromedriver!(No symbol) [0x7ff7cb58a3ca]
+	chromedriver!(No symbol) [0x7ff7cb5af39b]
+	chromedriver!(No symbol) [0x7ff7cb55401c]
+	chromedriver!(No symbol) [0x7ff7cb554f43]
+	chromedriver!GetHandleVerifier [0x7ff7cbfa7591+5f7f11]
+	chromedriver!GetHandleVerifier [0x7ff7cbfa1902+5f2282]
+	chromedriver!GetHandleVerifier [0x7ff7cbfc7115+617a95]
+	chromedriver!GetHandleVerifier [0x7ff7cb9e1dce+3274e]
+	chromedriver!GetHandleVerifier [0x7ff7cb9ea82c+3b1ac]
+	chromedriver!GetHandleVerifier [0x7ff7cb9cd744+1e0c4]
+	chromedriver!GetHandleVerifier [0x7ff7cb9cd8d4+1e254]
+	chromedriver!GetHandleVerifier [0x7ff7cb9b1447+1dc7]
+	KERNEL32!BaseThreadInitThunk [0x7ffc27c9cdf7+17]
+	ntdll!RtlUserThreadStart [0x7ffc28e3ee4c+2c]
+
+
+2026-10-03 06:57:20,871 - csv_handler - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 06:57:20,871 - csv_handler - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 06:57:20,877 - csv_handler - WARNING - No data available for filtering
+2026-10-03 06:57:20,877 - csv_handler - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 06:57:20,893 - csv_handler - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 06:57:20,897 - csv_handler - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 06:57:29,415 - csv_handler - INFO - Starting cryptocurrency price tracker...
+2026-10-03 06:57:29,415 - csv_handler - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-03 06:57:29,415 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-03 06:57:29,415 - csv_handler - INFO - Chrome will run in visible mode
+2026-10-03 06:57:29,415 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 06:57:33,063 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 06:57:35,032 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 06:57:35,032 - csv_handler - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 06:57:35,032 - csv_handler - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 06:58:18,065 - csv_handler - WARNING - Navigation attempt 1/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 06:58:18,065 - csv_handler - INFO - Waiting 5s before retry 2/3...
+2026-10-03 06:58:23,068 - csv_handler - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 06:59:01,955 - csv_handler - WARNING - Navigation attempt 2/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 06:59:01,955 - csv_handler - INFO - Waiting 5s before retry 3/3...
+2026-10-03 06:59:06,958 - csv_handler - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 06:59:45,972 - csv_handler - WARNING - Navigation attempt 3/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 06:59:45,975 - csv_handler - ERROR - Navigation to https://coinmarketcap.com/ failed after 3 attempts. Last error: unknown error: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 06:59:45,975 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-03 06:59:48,405 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-03 06:59:48,406 - csv_handler - ERROR - WebDriver error: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: unknown error: net::ERR_CONNECTION_TIMED_OUT
+
+2026-10-03 06:59:48,406 - csv_handler - ERROR - Tracking failed: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: unknown error: net::ERR_CONNECTION_TIMED_OUT
+Traceback (most recent call last):
+  File "E:\price\main.py", line 109, in run
+    self.scraped_data = scrape_crypto_prices(headless=self.headless)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 583, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 525, in scrape_top_coins
+    self._navigate_with_retry(COINMARKETCAP_URL)
+  File "E:\price\scraper.py", line 172, in _navigate_with_retry
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: unknown error: net::ERR_CONNECTION_TIMED_OUT
+
+2026-10-03 07:00:08,449 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-03 07:00:08,449 - csv_handler - INFO - Chrome will run in headless mode
+2026-10-03 07:00:08,449 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 07:00:12,064 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 07:00:13,577 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 07:00:13,577 - csv_handler - INFO - Navigation attempt 1/3: loading https://example.com
+2026-10-03 07:00:14,022 - csv_handler - INFO - Page navigation completed
+2026-10-03 07:00:14,032 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-03 07:00:16,175 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-03 07:00:31,773 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-03 07:00:31,773 - csv_handler - INFO - Chrome will run in headless mode
+2026-10-03 07:00:31,773 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 07:00:35,274 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 07:00:36,661 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 07:00:36,663 - csv_handler - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 07:00:36,663 - csv_handler - WARNING - Navigation attempt 1/3 timed out after 60s: page load timed out after 60s
+2026-10-03 07:00:36,663 - csv_handler - INFO - Waiting 1s before retry 2/3...
+2026-10-03 07:00:37,664 - csv_handler - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 07:00:37,664 - csv_handler - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out after 60s
+2026-10-03 07:00:37,664 - csv_handler - INFO - Waiting 1s before retry 3/3...
+2026-10-03 07:00:38,666 - csv_handler - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 07:00:38,666 - csv_handler - INFO - Page navigation completed
+2026-10-03 07:00:38,668 - csv_handler - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 07:00:38,668 - csv_handler - WARNING - Navigation attempt 1/3 timed out after 60s: page load timed out after 60s
+2026-10-03 07:00:38,668 - csv_handler - INFO - Waiting 1s before retry 2/3...
+2026-10-03 07:00:39,670 - csv_handler - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 07:00:39,670 - csv_handler - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out after 60s
+2026-10-03 07:00:39,670 - csv_handler - INFO - Waiting 1s before retry 3/3...
+2026-10-03 07:00:40,672 - csv_handler - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 07:00:40,672 - csv_handler - WARNING - Navigation attempt 3/3 timed out after 60s: page load timed out after 60s
+2026-10-03 07:00:40,673 - csv_handler - ERROR - Navigation to https://coinmarketcap.com/ failed after 3 attempts. Last error: page load timed out after 60s
+2026-10-03 07:00:40,673 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-03 07:00:42,916 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-03 07:02:50,061 - csv_handler - INFO - Starting cryptocurrency price tracker...
+2026-10-03 07:02:50,061 - csv_handler - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-03 07:02:50,061 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-03 07:02:50,063 - csv_handler - INFO - Chrome will run in visible mode
+2026-10-03 07:02:50,063 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 07:02:53,882 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 07:02:55,650 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 07:02:55,650 - csv_handler - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 07:02:55,650 - csv_handler - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 07:03:38,629 - csv_handler - WARNING - Navigation attempt 1/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 07:03:38,629 - csv_handler - INFO - Waiting 5s before retry 2/3...
+2026-10-03 07:03:43,631 - csv_handler - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 07:04:11,036 - csv_handler - INFO - Page navigation completed
+2026-10-03 07:04:11,036 - csv_handler - INFO - Waiting for dynamic content to load...
+2026-10-03 07:04:11,036 - csv_handler - INFO - Searching for cryptocurrency table...
+2026-10-03 07:09:01,172 - csv_handler - ERROR - Could not find cryptocurrency table
+2026-10-03 07:09:01,174 - csv_handler - WARNING - Dynamic content wait issue: Message: Crypto table not found
+
+2026-10-03 07:09:04,176 - csv_handler - INFO - Searching for cryptocurrency table...
+2026-10-03 07:13:26,409 - csv_handler - ERROR - Could not find cryptocurrency table
+2026-10-03 07:13:26,409 - csv_handler - ERROR - Element not found: Message: Cryptocurrency table not found on page; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-10-03 07:13:26,409 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-03 07:13:28,886 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-03 07:13:28,886 - csv_handler - ERROR - Tracking failed: Message: Cryptocurrency table not found on page; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Traceback (most recent call last):
+  File "E:\price\main.py", line 109, in run
+    self.scraped_data = scrape_crypto_prices(headless=self.headless)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 583, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 533, in scrape_top_coins
+    raise NoSuchElementException("Cryptocurrency table not found on page")
+selenium.common.exceptions.NoSuchElementException: Message: Cryptocurrency table not found on page; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+
+2026-10-03 09:18:18,763 - csv_handler - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:18:18,765 - csv_handler - INFO - Chrome will run in headless mode
+2026-10-03 09:18:18,765 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:18:22,785 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:18:24,294 - csv_handler - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:18:24,294 - csv_handler - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:18:28,614 - csv_handler - INFO - Page navigation completed
+2026-10-03 09:18:35,817 - csv_handler - INFO - Closing Chrome WebDriver...
+2026-10-03 09:18:38,165 - csv_handler - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:23:35,145 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:23:35,145 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:23:35,156 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:23:35,157 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:23:35,159 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:23:35,162 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:24:57,731 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpjt02wsln\data\crypto_prices.csv
+2026-10-03 09:24:57,731 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,745 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp6ujifacf\data\crypto_prices.csv
+2026-10-03 09:24:57,745 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,749 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpuqw5dtgt\data\crypto_prices.csv
+2026-10-03 09:24:57,749 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,756 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:24:57,759 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpcjh7fxs1\data\crypto_prices.csv
+2026-10-03 09:24:57,759 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,768 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpydabsz63\data\crypto_prices.csv
+2026-10-03 09:24:57,768 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,770 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpydabsz63\data\crypto_prices.csv
+2026-10-03 09:24:57,771 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,787 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmphv74_m9v\data\crypto_prices.csv
+2026-10-03 09:24:57,787 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,797 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpbzfslimr\data\crypto_prices.csv
+2026-10-03 09:24:57,799 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,801 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpbzfslimr\data\crypto_prices.csv
+2026-10-03 09:24:57,801 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,813 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp_ol1pzik\data\crypto_prices.csv
+2026-10-03 09:24:57,813 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,821 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmpzgencbg6\\data\\crypto_prices.csv'
+2026-10-03 09:24:57,825 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpenl9e81x\data\crypto_prices.csv
+2026-10-03 09:24:57,825 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,831 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmpy42fhuw1\data\crypto_prices.csv
+2026-10-03 09:24:57,842 - crypto_tracker - INFO - Read 1 historical records from C:\Users\barat\AppData\Local\Temp\tmp5zh9yx2r\data\crypto_prices.csv
+2026-10-03 09:24:57,842 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:24:57,854 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp1bblz62q\data\crypto_prices.csv
+2026-10-03 09:24:57,854 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,857 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp1bblz62q\data\crypto_prices.csv
+2026-10-03 09:24:57,858 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:24:57,862 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmp1bblz62q\data\crypto_prices.csv
+2026-10-03 09:24:57,865 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:24:57,866 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:24:57,871 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:24:57,875 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:24:57,876 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:24:57,878 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:24:57,879 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:24:57,880 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:24:57,880 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:24:57,880 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:24:57,881 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:24:57,883 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:24:57,883 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:24:57,883 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:24:57,883 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:24:57,883 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:24:57,883 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:24:57,884 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:24:57,884 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:24:57,884 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:24:57,884 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:24:57,884 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:24:57,884 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:24:57,884 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:24:57,885 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:24:57,885 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:24:57,885 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:25:19,764 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpjbkqibds\data\crypto_prices.csv
+2026-10-03 09:25:19,764 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,783 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpff51r278\data\crypto_prices.csv
+2026-10-03 09:25:19,783 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,788 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpyhts5gxm\data\crypto_prices.csv
+2026-10-03 09:25:19,788 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,792 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:25:19,796 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpxbkx3gp5\data\crypto_prices.csv
+2026-10-03 09:25:19,796 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,802 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmppv3pnu_r\data\crypto_prices.csv
+2026-10-03 09:25:19,802 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,802 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmppv3pnu_r\data\crypto_prices.csv
+2026-10-03 09:25:19,802 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,811 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpfgqmm4hn\data\crypto_prices.csv
+2026-10-03 09:25:19,811 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,821 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp_d_o9fzy\data\crypto_prices.csv
+2026-10-03 09:25:19,822 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,824 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp_d_o9fzy\data\crypto_prices.csv
+2026-10-03 09:25:19,824 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,832 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpt4406znr\data\crypto_prices.csv
+2026-10-03 09:25:19,832 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,840 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmpq9onysns\\data\\crypto_prices.csv'
+2026-10-03 09:25:19,844 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp0ri_4bri\data\crypto_prices.csv
+2026-10-03 09:25:19,844 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,847 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmprtwign9v\data\crypto_prices.csv
+2026-10-03 09:25:19,847 - crypto_tracker - INFO - Read 1 historical records from C:\Users\barat\AppData\Local\Temp\tmp7p_x27za\data\crypto_prices.csv
+2026-10-03 09:25:19,864 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:25:19,869 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp8c03dekk\data\crypto_prices.csv
+2026-10-03 09:25:19,869 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,872 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp8c03dekk\data\crypto_prices.csv
+2026-10-03 09:25:19,872 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:25:19,874 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmp8c03dekk\data\crypto_prices.csv
+2026-10-03 09:25:19,878 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:25:19,880 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:25:19,882 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:25:19,884 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:25:19,886 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:25:19,888 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:25:19,888 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:25:19,888 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:25:19,888 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:25:19,888 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:25:19,890 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:25:19,891 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:25:19,892 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:25:19,892 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:25:19,893 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:25:19,893 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:25:19,893 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:25:19,894 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:25:19,894 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:25:19,894 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:25:19,895 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:25:19,895 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:25:19,895 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:25:19,895 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:25:19,895 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:25:19,895 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:25:19,895 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:25:19,895 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:25:19,895 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:25:19,896 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:25:19,896 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:25:19,896 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:25:19,896 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:25:19,896 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:25:19,896 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:25:19,896 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:25:19,896 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:25:19,897 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:25:19,897 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:25:19,897 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:25:19,897 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:25:19,897 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:25:19,897 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:25:19,897 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:25:19,897 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:25:19,897 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:25:19,898 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:25:19,898 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:25:19,898 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:25:19,898 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:26:50,481 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpg9dksqva\data\crypto_prices.csv
+2026-10-03 09:26:50,482 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,488 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpq7arzjtj\data\crypto_prices.csv
+2026-10-03 09:26:50,489 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,492 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpu78bczjn\data\crypto_prices.csv
+2026-10-03 09:26:50,492 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,497 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:26:50,497 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpjnxsxotc\data\crypto_prices.csv
+2026-10-03 09:26:50,497 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,497 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmphmob6h_1\data\crypto_prices.csv
+2026-10-03 09:26:50,497 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,497 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmphmob6h_1\data\crypto_prices.csv
+2026-10-03 09:26:50,497 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,517 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpix0dhtjb\data\crypto_prices.csv
+2026-10-03 09:26:50,517 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,524 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpdsqhlu74\data\crypto_prices.csv
+2026-10-03 09:26:50,524 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,526 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpdsqhlu74\data\crypto_prices.csv
+2026-10-03 09:26:50,527 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,533 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp76aaoxr8\data\crypto_prices.csv
+2026-10-03 09:26:50,533 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,536 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmpu_ze_xaj\\data\\crypto_prices.csv'
+2026-10-03 09:26:50,536 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpaxi2h3eu\data\crypto_prices.csv
+2026-10-03 09:26:50,536 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,548 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmp3_dcmb5m\data\crypto_prices.csv
+2026-10-03 09:26:50,549 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:26:50,552 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmphmdnpi4j\data\crypto_prices.csv
+2026-10-03 09:26:50,552 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,554 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmphmdnpi4j\data\crypto_prices.csv
+2026-10-03 09:26:50,554 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:26:50,557 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmphmdnpi4j\data\crypto_prices.csv
+2026-10-03 09:26:50,559 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpoyn96ksj\data\crypto_prices.csv: broken file
+2026-10-03 09:26:50,572 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:26:50,572 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:26:50,574 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:26:50,576 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:26:50,577 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:26:50,578 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:26:50,579 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:26:50,580 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:26:50,580 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:26:50,580 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:26:50,580 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:26:50,580 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:26:50,581 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:26:50,582 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:26:50,582 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:26:50,582 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:26:50,582 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:26:50,583 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:26:50,583 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:26:50,583 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:26:50,583 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:26:50,583 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:26:50,583 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:26:50,583 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:26:50,584 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:26:50,584 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:26:50,584 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-03 09:26:50,584 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-03 09:26:50,585 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:26:50,585 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:26:50,585 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-03 09:26:50,585 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-03 09:26:50,585 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:26:50,585 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:27:06,056 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 09:27:06,056 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 09:27:06,056 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:27:06,056 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:27:06,056 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:27:08,009 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:27:09,208 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:27:09,208 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 09:27:09,208 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:27:10,077 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: unknown error: net::ERR_CONNECTION_RESET
+2026-10-03 09:27:10,077 - crypto_tracker - INFO - Waiting 5s before retry 2/3...
+2026-10-03 09:27:15,079 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 09:27:15,653 - crypto_tracker - WARNING - Navigation attempt 2/3 failed: unknown error: net::ERR_CONNECTION_RESET
+2026-10-03 09:27:15,653 - crypto_tracker - INFO - Waiting 5s before retry 3/3...
+2026-10-03 09:27:20,654 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 09:27:21,181 - crypto_tracker - WARNING - Navigation attempt 3/3 failed: unknown error: net::ERR_CONNECTION_RESET
+2026-10-03 09:27:21,181 - crypto_tracker - ERROR - Navigation to https://coinmarketcap.com/ failed after 3 attempts. Last error: unknown error: net::ERR_CONNECTION_RESET
+2026-10-03 09:27:21,181 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:27:23,323 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:27:23,323 - crypto_tracker - ERROR - WebDriver error: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: unknown error: net::ERR_CONNECTION_RESET
+2026-10-03 09:27:23,323 - crypto_tracker - ERROR - Tracking failed: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: unknown error: net::ERR_CONNECTION_RESET
+Traceback (most recent call last):
+  File "E:\price\main.py", line 137, in run
+    scraped = scrape_crypto_prices(headless=self.headless)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 666, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 606, in scrape_top_coins
+    self._navigate_with_retry(COINMARKETCAP_URL)
+  File "E:\price\scraper.py", line 176, in _navigate_with_retry
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: unknown error: net::ERR_CONNECTION_RESET
+
+2026-10-03 09:27:42,318 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 09:27:42,318 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 09:27:42,318 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:27:42,318 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:27:42,319 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:27:44,289 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:27:45,454 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:27:45,455 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 09:27:45,455 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:27:48,162 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:27:49,249 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:27:49,250 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:27:51,371 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:27:51,371 - crypto_tracker - ERROR - No data was extracted from CoinMarketCap
+2026-10-03 09:28:10,880 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:28:10,880 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:28:10,880 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:28:12,847 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:28:14,030 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:28:14,030 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:28:17,383 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:29:25,267 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp0vbszmfz\data\crypto_prices.csv
+2026-10-03 09:29:25,267 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,274 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpeb_950nn\data\crypto_prices.csv
+2026-10-03 09:29:25,274 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,278 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp5_au9jc8\data\crypto_prices.csv
+2026-10-03 09:29:25,278 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,282 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:29:25,287 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpdi5efpza\data\crypto_prices.csv
+2026-10-03 09:29:25,287 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,295 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpxq6jgh6o\data\crypto_prices.csv
+2026-10-03 09:29:25,295 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,298 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpxq6jgh6o\data\crypto_prices.csv
+2026-10-03 09:29:25,298 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,304 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp94yw1b16\data\crypto_prices.csv
+2026-10-03 09:29:25,305 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,310 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpjsig5sxz\data\crypto_prices.csv
+2026-10-03 09:29:25,311 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,313 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpjsig5sxz\data\crypto_prices.csv
+2026-10-03 09:29:25,313 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,318 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpxs3pjye6\data\crypto_prices.csv
+2026-10-03 09:29:25,319 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,325 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmpj71gygpq\\data\\crypto_prices.csv'
+2026-10-03 09:29:25,329 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp8jj9v8y7\data\crypto_prices.csv
+2026-10-03 09:29:25,329 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,335 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmplm9p5q_3\data\crypto_prices.csv
+2026-10-03 09:29:25,337 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:29:25,339 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpt_j3bkdx\data\crypto_prices.csv
+2026-10-03 09:29:25,340 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,342 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpt_j3bkdx\data\crypto_prices.csv
+2026-10-03 09:29:25,342 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:29:25,346 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmpt_j3bkdx\data\crypto_prices.csv
+2026-10-03 09:29:25,349 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpwhs1oqsk\data\crypto_prices.csv: broken file
+2026-10-03 09:29:25,353 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:29:25,355 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:29:25,357 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:29:25,359 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:29:25,362 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:29:25,364 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:29:25,365 - crypto_tracker - ERROR - CoinMarketCap served a protection page (#challenge-form). Stopping instead of trying to bypass it.
+2026-10-03 09:29:25,365 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:29:25,366 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:29:25,366 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:29:25,366 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:29:25,366 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:29:25,366 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:29:25,366 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:29:25,367 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:29:25,368 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:29:25,368 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:29:25,368 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:29:25,368 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:29:25,368 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:29:25,368 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:29:25,369 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:29:25,369 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:29:25,369 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:29:25,369 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:29:25,369 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:29:25,369 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:29:25,370 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:29:25,370 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:29:25,370 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:29:25,370 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:29:25,370 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:29:25,371 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-03 09:29:25,371 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-03 09:29:25,371 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:29:25,371 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:29:25,371 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-03 09:29:25,371 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-03 09:29:25,372 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:29:25,372 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:29:32,743 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 09:29:32,744 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 09:29:32,744 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:29:32,744 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:29:32,744 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:29:35,056 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:29:36,212 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:29:36,212 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 09:29:36,212 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:29:39,449 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:30:05,981 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-03 09:30:05,981 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 09:30:06,054 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 09:30:06,069 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 09:30:06,069 - crypto_tracker - INFO - Table rows are present
+2026-10-03 09:30:06,075 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:30:06,075 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-03 09:30:06,075 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 09:30:06,082 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 09:30:06,097 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 09:30:06,097 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-03 09:30:07,520 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:30:07,520 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,656.77
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,680.91
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   4. BNB (BNB) - $768.32
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   6. USDC (USDC) - $1.00
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   7. Solana (SOL) - $119.30
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3342
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   9. Zcash (ZEC) - $1,323.33
+2026-10-03 09:30:07,520 - crypto_tracker - INFO -   10. Hyperliquid (HYPE) - $88.36
+2026-10-03 09:30:07,520 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:30:09,823 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:30:09,823 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-03 09:30:09,824 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-03 09:30:09,828 - crypto_tracker - INFO - Created new CSV file with headers: E:\price\data\crypto_prices.csv
+2026-10-03 09:30:09,829 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-03 09:30:09,839 - crypto_tracker - INFO - CSV now holds 10 rows in total
+2026-10-03 09:30:09,839 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-03 09:30:18,485 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 09:30:18,485 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 09:30:18,485 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:30:18,485 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:30:18,485 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:30:20,577 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:30:21,755 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:30:21,755 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 09:30:21,755 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:30:22,061 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:30:51,609 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-03 09:30:51,609 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 09:30:51,681 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 09:30:51,696 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 09:30:51,696 - crypto_tracker - INFO - Table rows are present
+2026-10-03 09:30:51,702 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:30:51,702 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-03 09:30:51,702 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 09:30:51,710 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 09:30:51,720 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 09:30:51,720 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-03 09:30:52,859 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:30:52,859 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,679.49
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,681.53
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   4. BNB (BNB) - $768.32
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   6. USDC (USDC) - $1.00
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   7. Solana (SOL) - $119.30
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3342
+2026-10-03 09:30:52,859 - crypto_tracker - INFO -   9. Zcash (ZEC) - $1,323.33
+2026-10-03 09:30:52,860 - crypto_tracker - INFO -   10. Hyperliquid (HYPE) - $88.36
+2026-10-03 09:30:52,860 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:30:55,131 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:30:55,131 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-03 09:30:55,133 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-03 09:30:55,133 - crypto_tracker - INFO - Applying filters: {'min_change': 0.5}
+2026-10-03 09:30:55,137 - crypto_tracker - INFO - Filtered by min change > 0.5%: 6 records found
+2026-10-03 09:30:55,139 - crypto_tracker - INFO - Read 10 historical records from E:\price\data\crypto_prices.csv
+2026-10-03 09:30:55,151 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-03 09:30:55,151 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-03 09:30:55,162 - crypto_tracker - INFO - CSV now holds 20 rows in total
+2026-10-03 09:30:55,163 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-03 09:31:10,375 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 09:31:10,375 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 09:31:10,375 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:31:10,375 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:31:10,375 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:31:12,540 - crypto_tracker - INFO - Read 20 historical records from E:\price\data\crypto_prices.csv
+2026-10-03 09:31:13,362 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:31:14,523 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:31:14,524 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 09:31:14,524 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:31:17,880 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:31:44,850 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-03 09:31:44,850 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 09:31:44,940 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 09:31:45,021 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 09:31:45,021 - crypto_tracker - INFO - Table rows are present
+2026-10-03 09:31:45,052 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:31:45,053 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-03 09:31:45,053 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 09:31:45,071 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 09:31:45,100 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 09:31:45,100 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-03 09:31:46,687 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:31:46,687 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-03 09:31:46,687 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,691.19
+2026-10-03 09:31:46,687 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,681.58
+2026-10-03 09:31:46,687 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-03 09:31:46,687 - crypto_tracker - INFO -   4. BNB (BNB) - $768.31
+2026-10-03 09:31:46,688 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-03 09:31:46,688 - crypto_tracker - INFO -   6. USDC (USDC) - $0.9999
+2026-10-03 09:31:46,688 - crypto_tracker - INFO -   7. Solana (SOL) - $119.36
+2026-10-03 09:31:46,688 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3342
+2026-10-03 09:31:46,688 - crypto_tracker - INFO -   9. Zcash (ZEC) - $1,323.33
+2026-10-03 09:31:46,688 - crypto_tracker - INFO -   10. Hyperliquid (HYPE) - $88.36
+2026-10-03 09:31:46,688 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:31:49,015 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:31:49,015 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-03 09:31:49,017 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-03 09:31:49,017 - crypto_tracker - INFO - Applying filters: {'coin': 'sol'}
+2026-10-03 09:31:49,019 - crypto_tracker - INFO - Filtered by coin containing 'sol': 1 records found
+2026-10-03 09:31:49,019 - crypto_tracker - INFO - Read 20 historical records from E:\price\data\crypto_prices.csv
+2026-10-03 09:31:49,033 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-03 09:31:49,033 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-03 09:31:49,043 - crypto_tracker - INFO - CSV now holds 30 rows in total
+2026-10-03 09:31:49,043 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-03 09:32:41,814 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpjnls9haj\data\crypto_prices.csv
+2026-10-03 09:32:41,814 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,837 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp5frwyz73\data\crypto_prices.csv
+2026-10-03 09:32:41,837 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,843 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp_fjqeyyz\data\crypto_prices.csv
+2026-10-03 09:32:41,843 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,847 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:32:41,851 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpj8h3j746\data\crypto_prices.csv
+2026-10-03 09:32:41,851 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,856 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp7w2czrx0\data\crypto_prices.csv
+2026-10-03 09:32:41,856 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,856 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp7w2czrx0\data\crypto_prices.csv
+2026-10-03 09:32:41,856 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,864 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpd3tydwpg\data\crypto_prices.csv
+2026-10-03 09:32:41,864 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,870 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpn4zd5_ze\data\crypto_prices.csv
+2026-10-03 09:32:41,870 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,872 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpn4zd5_ze\data\crypto_prices.csv
+2026-10-03 09:32:41,872 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,878 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp_ffrajp0\data\crypto_prices.csv
+2026-10-03 09:32:41,878 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,886 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmpocv_w_ys\\data\\crypto_prices.csv'
+2026-10-03 09:32:41,890 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpkp_mxj2e\data\crypto_prices.csv
+2026-10-03 09:32:41,890 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,895 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmp72az4lb2\data\crypto_prices.csv
+2026-10-03 09:32:41,897 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:32:41,899 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp549cjt62\data\crypto_prices.csv
+2026-10-03 09:32:41,900 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,901 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp549cjt62\data\crypto_prices.csv
+2026-10-03 09:32:41,902 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:41,902 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmp549cjt62\data\crypto_prices.csv
+2026-10-03 09:32:41,902 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpbd9z3lzi\data\crypto_prices.csv: broken file
+2026-10-03 09:32:41,902 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:32:41,902 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:32:41,914 - crypto_tracker - ERROR - CoinMarketCap served a protection page (#challenge-form). Stopping instead of trying to bypass it.
+2026-10-03 09:32:41,914 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:41,914 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-03 09:32:41,914 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:32:41,914 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:32:53,994 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpmuybxcs3\data\crypto_prices.csv
+2026-10-03 09:32:53,994 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,004 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmphgpqnvoy\data\crypto_prices.csv
+2026-10-03 09:32:54,006 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,010 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp30327p01\data\crypto_prices.csv
+2026-10-03 09:32:54,010 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,017 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:32:54,022 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp3hq2qw_p\data\crypto_prices.csv
+2026-10-03 09:32:54,022 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,031 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpiommbq3w\data\crypto_prices.csv
+2026-10-03 09:32:54,032 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,037 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpiommbq3w\data\crypto_prices.csv
+2026-10-03 09:32:54,037 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,039 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmps1zx230z\data\crypto_prices.csv
+2026-10-03 09:32:54,039 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,050 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpd7iw0r40\data\crypto_prices.csv
+2026-10-03 09:32:54,050 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,050 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpd7iw0r40\data\crypto_prices.csv
+2026-10-03 09:32:54,050 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,064 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp0rv86ei8\data\crypto_prices.csv
+2026-10-03 09:32:54,064 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,073 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmp96x0uo28\\data\\crypto_prices.csv'
+2026-10-03 09:32:54,078 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp9pqnr5qp\data\crypto_prices.csv
+2026-10-03 09:32:54,078 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,085 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmpttob27hy\data\crypto_prices.csv
+2026-10-03 09:32:54,088 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:32:54,092 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpi32y_lr1\data\crypto_prices.csv
+2026-10-03 09:32:54,093 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,096 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpi32y_lr1\data\crypto_prices.csv
+2026-10-03 09:32:54,096 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:32:54,102 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmpi32y_lr1\data\crypto_prices.csv
+2026-10-03 09:32:54,102 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpdc8jfkyz\data\crypto_prices.csv: broken file
+2026-10-03 09:32:54,108 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:32:54,108 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:32:54,111 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:32:54,115 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:32:54,117 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:32:54,119 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:32:54,122 - crypto_tracker - ERROR - CoinMarketCap served a protection page (#challenge-form). Stopping instead of trying to bypass it.
+2026-10-03 09:32:54,122 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:32:54,122 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:32:54,122 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:32:54,122 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:32:54,124 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:54,126 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:32:54,126 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:32:54,128 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:32:54,128 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:32:54,128 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:32:54,128 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:32:54,128 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:32:54,128 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:32:54,128 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-03 09:32:54,128 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-03 09:32:54,128 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:32:54,128 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:32:54,128 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-03 09:32:54,128 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-03 09:32:54,128 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:32:54,130 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:59:28,672 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpie9wmd5_\data\crypto_prices.csv
+2026-10-03 09:59:28,672 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,677 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpvl6__8aw\data\crypto_prices.csv
+2026-10-03 09:59:28,679 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,681 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpl87_94n0\data\crypto_prices.csv
+2026-10-03 09:59:28,683 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,688 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 09:59:28,691 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp85w0leep\data\crypto_prices.csv
+2026-10-03 09:59:28,691 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,698 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpsn5t19p1\data\crypto_prices.csv
+2026-10-03 09:59:28,698 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,701 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpsn5t19p1\data\crypto_prices.csv
+2026-10-03 09:59:28,701 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,707 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpdq_8_vv8\data\crypto_prices.csv
+2026-10-03 09:59:28,707 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,708 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp9l3gmzhm\data\crypto_prices.csv
+2026-10-03 09:59:28,708 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,708 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp9l3gmzhm\data\crypto_prices.csv
+2026-10-03 09:59:28,708 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,725 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp5c9inaf8\data\crypto_prices.csv
+2026-10-03 09:59:28,725 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,731 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmp0b_admfv\\data\\crypto_prices.csv'
+2026-10-03 09:59:28,734 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmplxfz02i3\data\crypto_prices.csv
+2026-10-03 09:59:28,734 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,740 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmpi6wd5ly8\data\crypto_prices.csv
+2026-10-03 09:59:28,742 - crypto_tracker - INFO - No historical data file found
+2026-10-03 09:59:28,745 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp723fpadi\data\crypto_prices.csv
+2026-10-03 09:59:28,746 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,747 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmp723fpadi\data\crypto_prices.csv
+2026-10-03 09:59:28,747 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 09:59:28,750 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmp723fpadi\data\crypto_prices.csv
+2026-10-03 09:59:28,753 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpjgn6vnda\data\crypto_prices.csv: broken file
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 09:59:28,757 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 09:59:28,757 - crypto_tracker - ERROR - CoinMarketCap served a protection page (#challenge-form). Stopping instead of trying to bypass it.
+2026-10-03 09:59:28,757 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 09:59:28,757 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:59:28,757 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:59:28,757 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:59:28,757 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:59:28,757 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:59:28,757 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:59:28,769 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:59:28,769 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:59:28,769 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 09:59:28,769 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:59:28,769 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 09:59:28,769 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 09:59:28,769 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 09:59:28,770 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 09:59:28,770 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 09:59:28,770 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:59:28,770 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 09:59:28,770 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 09:59:28,770 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-03 09:59:28,770 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-03 09:59:28,770 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:59:28,770 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:59:28,771 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-03 09:59:28,771 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-03 09:59:28,771 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 09:59:28,771 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-03 09:59:36,601 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 09:59:36,601 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 09:59:36,601 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 09:59:36,601 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 09:59:36,601 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 09:59:38,617 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 09:59:39,770 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 09:59:39,770 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 09:59:39,770 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 09:59:46,178 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 10:00:12,322 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-03 10:00:12,322 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 10:00:12,353 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 10:00:12,369 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 10:00:12,369 - crypto_tracker - INFO - Table rows are present
+2026-10-03 10:00:12,374 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 10:00:12,374 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-03 10:00:12,387 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 10:00:12,387 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-03 10:00:13,459 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 10:00:13,459 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-03 10:00:13,459 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,574.11
+2026-10-03 10:00:13,459 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,675.24
+2026-10-03 10:00:13,459 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   4. BNB (BNB) - $768.18
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   6. USDC (USDC) - $0.9999
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   7. Solana (SOL) - $119.23
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3342
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   9. Zcash (ZEC) - $1,319.79
+2026-10-03 10:00:13,460 - crypto_tracker - INFO -   10. Hyperliquid (HYPE) - $88.11
+2026-10-03 10:00:13,460 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:00:15,626 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:00:15,626 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-03 10:00:15,628 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-03 10:00:15,636 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-03 10:00:15,636 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-03 10:00:15,650 - crypto_tracker - INFO - CSV now holds 40 rows in total
+2026-10-03 10:00:15,650 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-03 10:11:19,117 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpriawq63s\data\crypto_prices.csv
+2026-10-03 10:11:19,117 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,131 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpr3bn4w_5\data\crypto_prices.csv
+2026-10-03 10:11:19,131 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,138 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpxyah679k\data\crypto_prices.csv
+2026-10-03 10:11:19,138 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,142 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-03 10:11:19,145 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp2mo7bhz0\data\crypto_prices.csv
+2026-10-03 10:11:19,145 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,149 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpyrbjxe97\data\crypto_prices.csv
+2026-10-03 10:11:19,152 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,156 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpyrbjxe97\data\crypto_prices.csv
+2026-10-03 10:11:19,157 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,165 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpc0s3dr4u\data\crypto_prices.csv
+2026-10-03 10:11:19,165 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,172 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmppj4ak7j4\data\crypto_prices.csv
+2026-10-03 10:11:19,172 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,175 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmppj4ak7j4\data\crypto_prices.csv
+2026-10-03 10:11:19,176 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,183 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp83b1974a\data\crypto_prices.csv
+2026-10-03 10:11:19,184 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,191 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmpc4m5fpaf\\data\\crypto_prices.csv'
+2026-10-03 10:11:19,196 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpyqqatj6s\data\crypto_prices.csv
+2026-10-03 10:11:19,196 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,204 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmpo90m2rrp\data\crypto_prices.csv
+2026-10-03 10:11:19,205 - crypto_tracker - INFO - No historical data file found
+2026-10-03 10:11:19,210 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpq7kmrjod\data\crypto_prices.csv
+2026-10-03 10:11:19,210 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,213 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpq7kmrjod\data\crypto_prices.csv
+2026-10-03 10:11:19,213 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-03 10:11:19,214 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmpq7kmrjod\data\crypto_prices.csv
+2026-10-03 10:11:19,218 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpuetz_y79\data\crypto_prices.csv: broken file
+2026-10-03 10:11:19,222 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 10:11:19,223 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-03 10:11:19,226 - crypto_tracker - WARNING - No data available for filtering
+2026-10-03 10:11:19,227 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-03 10:11:19,229 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-03 10:11:19,230 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-03 10:11:19,233 - crypto_tracker - ERROR - CoinMarketCap served a protection page (#challenge-form). Stopping instead of trying to bypass it.
+2026-10-03 10:11:19,233 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-03 10:11:19,234 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-03 10:11:19,234 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-03 10:11:19,234 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 10:11:19,235 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 10:11:19,235 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-03 10:11:19,236 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 10:11:19,236 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 10:11:19,236 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-03 10:11:19,236 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-03 10:11:19,237 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 10:11:19,237 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 10:11:19,237 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-03 10:11:19,237 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 10:11:19,239 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-03 10:11:19,239 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 10:11:19,239 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-03 10:11:19,239 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-03 10:11:19,240 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 10:11:19,240 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 10:11:19,240 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 10:11:19,240 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 10:11:19,240 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 10:11:19,241 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 10:11:19,241 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 10:11:19,241 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 10:11:19,241 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 10:11:19,241 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:11:19,241 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 10:11:19,243 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 10:11:19,243 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 10:11:19,243 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-03 10:11:19,243 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:11:19,243 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:11:19,245 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 10:11:19,245 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 10:11:19,245 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-03 10:11:19,245 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-03 10:11:19,245 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-03 10:11:19,245 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-03 10:11:19,245 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-03 10:11:19,246 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 10:11:19,246 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-03 10:11:19,246 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 10:11:19,247 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-03 10:11:19,247 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-03 10:11:19,247 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-03 10:11:19,247 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 10:11:19,248 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-03 10:11:19,248 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-03 10:11:19,248 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-03 10:11:19,248 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-03 10:11:39,140 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 10:11:39,140 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-03 10:11:39,140 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 10:11:39,140 - crypto_tracker - INFO - Chrome will run in visible mode
+2026-10-03 10:11:39,140 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 10:11:40,983 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 10:11:42,172 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 10:11:42,173 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 10:11:42,173 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 10:12:42,180 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timeout: Timed out receiving message from renderer: 57.507
+2026-10-03 10:12:42,180 - crypto_tracker - INFO - Waiting 5s before retry 2/3...
+2026-10-03 10:12:47,181 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 10:12:53,295 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 10:13:20,104 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-03 10:13:20,105 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 10:13:20,114 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 10:13:20,133 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 10:13:20,134 - crypto_tracker - INFO - Table rows are present
+2026-10-03 10:13:20,141 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 10:13:20,141 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-03 10:13:20,154 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 10:13:20,154 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-03 10:13:21,511 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 10:13:21,511 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-03 10:13:21,511 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,523.01
+2026-10-03 10:13:21,511 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,672.98
+2026-10-03 10:13:21,511 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-03 10:13:21,511 - crypto_tracker - INFO -   4. BNB (BNB) - $766.42
+2026-10-03 10:13:21,512 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-03 10:13:21,512 - crypto_tracker - INFO -   6. USDC (USDC) - $0.9999
+2026-10-03 10:13:21,512 - crypto_tracker - INFO -   7. Solana (SOL) - $119.03
+2026-10-03 10:13:21,512 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3342
+2026-10-03 10:13:21,512 - crypto_tracker - INFO -   9. Zcash (ZEC) - $1,315.10
+2026-10-03 10:13:21,512 - crypto_tracker - INFO -   10. Hyperliquid (HYPE) - $88.01
+2026-10-03 10:13:21,512 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:13:23,678 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:13:23,678 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-03 10:13:23,678 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-03 10:13:23,682 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-03 10:13:23,682 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-03 10:13:23,694 - crypto_tracker - INFO - CSV now holds 50 rows in total
+2026-10-03 10:13:23,694 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-03 10:13:35,031 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 10:13:35,031 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=True)
+2026-10-03 10:13:35,031 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 10:13:35,031 - crypto_tracker - INFO - Chrome will run in headless mode
+2026-10-03 10:13:35,031 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 10:13:36,775 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 10:13:37,914 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 10:13:37,914 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 10:13:37,915 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 10:14:33,242 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: unknown error: net::ERR_CONNECTION_TIMED_OUT
+2026-10-03 10:14:33,242 - crypto_tracker - INFO - Waiting 5s before retry 2/3...
+2026-10-03 10:14:38,244 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 10:15:38,261 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timeout: Timed out receiving message from renderer: 56.565
+2026-10-03 10:15:38,263 - crypto_tracker - INFO - Waiting 5s before retry 3/3...
+2026-10-03 10:15:43,264 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 10:16:43,272 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timeout: Timed out receiving message from renderer: 57.737
+2026-10-03 10:16:43,272 - crypto_tracker - ERROR - Navigation to https://coinmarketcap.com/ failed after 3 attempts. Last error: timeout: Timed out receiving message from renderer: 57.737
+2026-10-03 10:16:43,272 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:16:45,411 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:16:45,411 - crypto_tracker - ERROR - WebDriver error: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: timeout: Timed out receiving message from renderer: 57.737
+2026-10-03 10:16:45,411 - crypto_tracker - ERROR - Tracking failed: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: timeout: Timed out receiving message from renderer: 57.737
+Traceback (most recent call last):
+  File "E:\price\main.py", line 155, in run
+    scraped = scrape_crypto_prices(headless=self.headless)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 687, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 629, in scrape_top_coins
+    self._navigate_with_retry(COINMARKETCAP_URL)
+  File "E:\price\scraper.py", line 176, in _navigate_with_retry
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: timeout: Timed out receiving message from renderer: 57.737
+
+2026-10-03 10:18:45,504 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 10:18:45,504 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-03 10:18:45,504 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 10:18:45,504 - crypto_tracker - INFO - Chrome will run in visible mode
+2026-10-03 10:18:45,504 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 10:18:47,323 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 10:18:48,451 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 10:18:48,451 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 10:18:48,451 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 10:19:48,461 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timeout: Timed out receiving message from renderer: 33.439
+2026-10-03 10:19:48,461 - crypto_tracker - INFO - Waiting 5s before retry 2/3...
+2026-10-03 10:19:53,462 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 10:20:53,474 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timeout: Timed out receiving message from renderer: 40.507
+2026-10-03 10:20:53,474 - crypto_tracker - INFO - Waiting 5s before retry 3/3...
+2026-10-03 10:20:58,475 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 10:20:59,955 - crypto_tracker - INFO - Page navigation completed
+2026-10-03 10:21:25,900 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-03 10:21:25,900 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-03 10:21:25,964 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-03 10:21:26,012 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 10:21:26,012 - crypto_tracker - INFO - Table rows are present
+2026-10-03 10:21:26,016 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-03 10:21:26,016 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-03 10:21:26,033 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-03 10:21:26,033 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-03 10:21:27,416 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-03 10:21:27,416 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-03 10:21:27,416 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,572.86
+2026-10-03 10:21:27,416 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,675.28
+2026-10-03 10:21:27,416 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-03 10:21:27,417 - crypto_tracker - INFO -   4. BNB (BNB) - $766.58
+2026-10-03 10:21:27,417 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-03 10:21:27,417 - crypto_tracker - INFO -   6. USDC (USDC) - $0.9999
+2026-10-03 10:21:27,417 - crypto_tracker - INFO -   7. Solana (SOL) - $119.20
+2026-10-03 10:21:27,417 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3343
+2026-10-03 10:21:27,417 - crypto_tracker - INFO -   9. Zcash (ZEC) - $1,317.41
+2026-10-03 10:21:27,418 - crypto_tracker - INFO -   10. Hyperliquid (HYPE) - $88.18
+2026-10-03 10:21:27,418 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:21:29,654 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:21:29,654 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-03 10:21:29,654 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-03 10:21:29,654 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-03 10:21:29,654 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-03 10:21:29,669 - crypto_tracker - INFO - CSV now holds 60 rows in total
+2026-10-03 10:21:29,669 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-03 10:22:13,255 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-03 10:22:13,255 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-03 10:22:13,255 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-03 10:22:13,255 - crypto_tracker - INFO - Chrome will run in visible mode
+2026-10-03 10:22:13,255 - WDM - INFO - ====== WebDriver manager ======
+2026-10-03 10:22:14,983 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-03 10:22:16,154 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-03 10:22:16,155 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-03 10:22:16,155 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-03 10:23:16,166 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timeout: Timed out receiving message from renderer: -0.004
+2026-10-03 10:23:16,166 - crypto_tracker - INFO - Waiting 5s before retry 2/3...
+2026-10-03 10:23:21,167 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-03 10:24:21,189 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timeout: Timed out receiving message from renderer: 46.839
+2026-10-03 10:24:21,191 - crypto_tracker - INFO - Waiting 5s before retry 3/3...
+2026-10-03 10:24:26,193 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-03 10:25:26,211 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timeout: Timed out receiving message from renderer: 59.919
+2026-10-03 10:25:26,211 - crypto_tracker - ERROR - Navigation to https://coinmarketcap.com/ failed after 3 attempts. Last error: timeout: Timed out receiving message from renderer: 59.919
+2026-10-03 10:25:26,211 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-03 10:25:28,377 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-03 10:25:28,377 - crypto_tracker - ERROR - WebDriver error: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: timeout: Timed out receiving message from renderer: 59.919
+2026-10-03 10:25:28,377 - crypto_tracker - ERROR - Tracking failed: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: timeout: Timed out receiving message from renderer: 59.919
+Traceback (most recent call last):
+  File "E:\price\main.py", line 155, in run
+    scraped = scrape_crypto_prices(headless=self.headless)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 687, in scrape_crypto_prices
+    return scraper.scrape_top_coins()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\price\scraper.py", line 629, in scrape_top_coins
+    self._navigate_with_retry(COINMARKETCAP_URL)
+  File "E:\price\scraper.py", line 176, in _navigate_with_retry
+    raise WebDriverException(
+selenium.common.exceptions.WebDriverException: Message: Unable to reach https://coinmarketcap.com/ after 3 attempts (5s delay between attempts). Last error: timeout: Timed out receiving message from renderer: 59.919
+
+2026-10-04 06:57:54,502 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-04 06:57:54,502 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-04 06:57:54,502 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-04 06:57:54,502 - crypto_tracker - INFO - Chrome will run in visible mode
+2026-10-04 06:57:54,505 - WDM - INFO - ====== WebDriver manager ======
+2026-10-04 06:58:01,676 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-04 06:58:05,667 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2026-10-04 06:58:06,527 - WDM - INFO - WebDriver version 149.0.7827.155 selected
+2026-10-04 06:58:06,552 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-10-04 06:58:06,554 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/win64/chromedriver-win64.zip
+2026-10-04 06:58:07,330 - WDM - INFO - Driver downloading response is 200
+2026-10-04 06:58:13,105 - WDM - INFO - Driver has been saved in cache [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155]
+2026-10-04 06:58:15,429 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-04 06:58:15,469 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-04 06:58:15,471 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-04 06:58:16,939 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: unknown error: net::ERR_CONNECTION_RESET
+2026-10-04 06:58:16,943 - crypto_tracker - INFO - Waiting 5s before retry 2/3...
+2026-10-04 06:58:21,943 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://coinmarketcap.com/
+2026-10-04 06:58:23,209 - crypto_tracker - WARNING - Navigation attempt 2/3 failed: unknown error: net::ERR_CONNECTION_RESET
+2026-10-04 06:58:23,209 - crypto_tracker - INFO - Waiting 5s before retry 3/3...
+2026-10-04 06:58:28,215 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://coinmarketcap.com/
+2026-10-04 06:58:33,719 - crypto_tracker - INFO - Page navigation completed
+2026-10-04 06:59:01,570 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-04 06:59:01,572 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-04 06:59:01,616 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-04 06:59:01,655 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-04 06:59:01,655 - crypto_tracker - INFO - Table rows are present
+2026-10-04 06:59:01,667 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-04 06:59:01,672 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-04 06:59:01,708 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-04 06:59:01,708 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-04 06:59:05,390 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-04 06:59:05,390 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-04 06:59:05,390 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,734.53
+2026-10-04 06:59:05,390 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,690.30
+2026-10-04 06:59:05,390 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-04 06:59:05,390 - crypto_tracker - INFO -   4. BNB (BNB) - $783.54
+2026-10-04 06:59:05,390 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-04 06:59:05,392 - crypto_tracker - INFO -   6. USDC (USDC) - $0.9999
+2026-10-04 06:59:05,392 - crypto_tracker - INFO -   7. Solana (SOL) - $120.10
+2026-10-04 06:59:05,392 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3356
+2026-10-04 06:59:05,392 - crypto_tracker - INFO -   9. Hyperliquid (HYPE) - $89.40
+2026-10-04 06:59:05,392 - crypto_tracker - INFO -   10. Zcash (ZEC) - $1,312.08
+2026-10-04 06:59:05,394 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-04 06:59:07,939 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-04 06:59:07,940 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-04 06:59:07,940 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-04 06:59:07,990 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-04 06:59:07,990 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-04 06:59:08,047 - crypto_tracker - INFO - CSV now holds 70 rows in total
+2026-10-04 06:59:08,050 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-04 07:18:58,047 - crypto_tracker - INFO - Starting cryptocurrency price tracker...
+2026-10-04 07:18:58,047 - crypto_tracker - INFO - Starting cryptocurrency scraping (headless=False)
+2026-10-04 07:18:58,047 - crypto_tracker - INFO - Setting up Chrome WebDriver...
+2026-10-04 07:18:58,047 - crypto_tracker - INFO - Chrome will run in visible mode
+2026-10-04 07:18:58,047 - WDM - INFO - ====== WebDriver manager ======
+2026-10-04 07:18:59,936 - WDM - INFO - Driver [C:\Users\barat\.wdm\drivers\chromedriver\win64\149.0.7827.155\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-10-04 07:19:01,093 - crypto_tracker - INFO - Chrome WebDriver setup completed successfully
+2026-10-04 07:19:01,093 - crypto_tracker - INFO - Navigating to https://coinmarketcap.com/
+2026-10-04 07:19:01,093 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://coinmarketcap.com/
+2026-10-04 07:19:03,915 - crypto_tracker - INFO - Page navigation completed
+2026-10-04 07:19:30,369 - crypto_tracker - INFO - Waiting for the cryptocurrency table to render...
+2026-10-04 07:19:30,369 - crypto_tracker - INFO - Searching for cryptocurrency table...
+2026-10-04 07:19:30,402 - crypto_tracker - INFO - Found table with selector: table.cmc-table
+2026-10-04 07:19:30,446 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-04 07:19:30,446 - crypto_tracker - INFO - Table rows are present
+2026-10-04 07:19:30,455 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-04 07:19:30,455 - crypto_tracker - INFO - Dynamic content loaded successfully
+2026-10-04 07:19:30,469 - crypto_tracker - INFO - Found 101 rows with selector: table tbody tr
+2026-10-04 07:19:30,469 - crypto_tracker - INFO - Extracting data from 101 rows...
+2026-10-04 07:19:31,646 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-04 07:19:31,646 - crypto_tracker - INFO - Successfully scraped 10 cryptocurrencies
+2026-10-04 07:19:31,646 - crypto_tracker - INFO -   1. Bitcoin (BTC) - $84,770.72
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   2. Ethereum (ETH) - $2,691.81
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   3. Tether (USDT) - $0.9998
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   4. BNB (BNB) - $783.23
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   5. XRP (XRP) - $1.48
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   6. USDC (USDC) - $0.9999
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   7. Solana (SOL) - $120.04
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   8. TRON (TRX) - $0.3357
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   9. Hyperliquid (HYPE) - $89.48
+2026-10-04 07:19:31,651 - crypto_tracker - INFO -   10. Zcash (ZEC) - $1,308.07
+2026-10-04 07:19:31,651 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-04 07:19:33,908 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-04 07:19:33,908 - crypto_tracker - INFO - Scraped 10 raw records from CoinMarketCap
+2026-10-04 07:19:33,908 - validation - INFO - Validation finished: 10 valid, 0 rejected out of 10 scraped records
+2026-10-04 07:19:33,915 - crypto_tracker - INFO - Appended 10 records to CSV: E:\price\data\crypto_prices.csv
+2026-10-04 07:19:33,915 - crypto_tracker - INFO - Successfully saved 10 cryptocurrency records
+2026-10-04 07:19:33,936 - crypto_tracker - INFO - CSV now holds 80 rows in total
+2026-10-04 07:19:33,936 - crypto_tracker - INFO - Tracking completed successfully with 10 records
+2026-10-04 10:28:09,744 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:28:09,786 - dashboard - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:28:21,459 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:28:21,467 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:28:21,491 - dashboard - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:28:21,500 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:28:21,519 - dashboard - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:28:21,535 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:28:21,554 - dashboard - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:28:43,407 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:28:43,416 - dashboard - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:28:46,112 - crypto_tracker - INFO - No historical data file found
+2026-10-04 10:28:46,116 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\opencode\empty.csv
+2026-10-04 10:28:46,133 - crypto_tracker - INFO - Read 0 historical records from C:\Users\barat\AppData\Local\Temp\opencode\headers.csv
+2026-10-04 10:28:46,154 - crypto_tracker - INFO - Read 1 historical records from C:\Users\barat\AppData\Local\Temp\opencode\badcols.csv
+2026-10-04 10:28:46,177 - crypto_tracker - INFO - Read 1 historical records from C:\Users\barat\AppData\Local\Temp\opencode\badtime.csv
+2026-10-04 10:28:46,178 - dashboard - ERROR - No readable Timestamp values in C:\Users\barat\AppData\Local\Temp\opencode\badtime.csv
+2026-10-04 10:29:39,705 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:29:39,719 - __main__ - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:30:11,587 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:30:11,595 - __main__ - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 10:30:43,799 - crypto_tracker - INFO - No historical data file found
+2026-10-04 10:31:16,269 - crypto_tracker - WARNING - CSV file exists but contains no data: E:\price\data\crypto_prices.csv
+2026-10-04 10:31:40,158 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpbx82if7h\data\crypto_prices.csv
+2026-10-04 10:31:40,158 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,219 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp4yuj44dp\data\crypto_prices.csv
+2026-10-04 10:31:40,219 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,242 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmp76lquvwp\data\crypto_prices.csv
+2026-10-04 10:31:40,242 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,263 - crypto_tracker - WARNING - No data provided to save to CSV
+2026-10-04 10:31:40,280 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpnqguq5kt\data\crypto_prices.csv
+2026-10-04 10:31:40,280 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,310 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpsfie_f5f\data\crypto_prices.csv
+2026-10-04 10:31:40,313 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,314 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpsfie_f5f\data\crypto_prices.csv
+2026-10-04 10:31:40,314 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,346 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpt8u53pvl\data\crypto_prices.csv
+2026-10-04 10:31:40,346 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,386 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpy5o942dk\data\crypto_prices.csv
+2026-10-04 10:31:40,386 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,394 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpy5o942dk\data\crypto_prices.csv
+2026-10-04 10:31:40,394 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,442 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpfnfu6xg2\data\crypto_prices.csv
+2026-10-04 10:31:40,442 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,475 - crypto_tracker - ERROR - Error saving data to CSV: [Errno 13] Permission denied: 'C:\\Users\\barat\\AppData\\Local\\Temp\\tmp6ttqo2h5\\data\\crypto_prices.csv'
+2026-10-04 10:31:40,485 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpag7axve3\data\crypto_prices.csv
+2026-10-04 10:31:40,485 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,515 - crypto_tracker - WARNING - CSV file exists but contains no data: C:\Users\barat\AppData\Local\Temp\tmp_4vii659\data\crypto_prices.csv
+2026-10-04 10:31:40,520 - crypto_tracker - INFO - No historical data file found
+2026-10-04 10:31:40,531 - crypto_tracker - INFO - Created new CSV file with headers: C:\Users\barat\AppData\Local\Temp\tmpdleta0ei\data\crypto_prices.csv
+2026-10-04 10:31:40,531 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,538 - crypto_tracker - INFO - Appended 1 records to CSV: C:\Users\barat\AppData\Local\Temp\tmpdleta0ei\data\crypto_prices.csv
+2026-10-04 10:31:40,538 - crypto_tracker - INFO - Successfully saved 1 cryptocurrency records
+2026-10-04 10:31:40,555 - crypto_tracker - INFO - Read 2 historical records from C:\Users\barat\AppData\Local\Temp\tmpdleta0ei\data\crypto_prices.csv
+2026-10-04 10:31:40,568 - crypto_tracker - ERROR - Error reading historical data from C:\Users\barat\AppData\Local\Temp\tmpa1odn5at\data\crypto_prices.csv: broken file
+2026-10-04 10:31:40,617 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-04 10:31:40,621 - crypto_tracker - INFO - Filtered by min change > 0%: 1 records found
+2026-10-04 10:31:40,630 - crypto_tracker - WARNING - No data available for filtering
+2026-10-04 10:31:40,638 - crypto_tracker - INFO - Filtered by coin containing 'bitcoin': 1 records found
+2026-10-04 10:31:40,641 - crypto_tracker - INFO - Filtered by min change > 0%: 2 records found
+2026-10-04 10:31:40,652 - crypto_tracker - INFO - Filtered by min price > 1000: 2 records found
+2026-10-04 10:31:40,665 - crypto_tracker - ERROR - CoinMarketCap served a protection page (#challenge-form). Stopping instead of trying to bypass it.
+2026-10-04 10:31:40,667 - crypto_tracker - ERROR - CoinMarketCap served a protection page ('unusual traffic'). Stopping instead of trying to bypass it.
+2026-10-04 10:31:40,667 - crypto_tracker - WARNING - No table headers found, using default column positions
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 7}
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Detected column positions from headers: {'rank': 2, 'name': 3, 'price': 4, 'change': 6, 'market_cap': 8}
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Successfully extracted 2 cryptocurrency records
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Extracting data from 0 rows...
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Successfully extracted 0 cryptocurrency records
+2026-10-04 10:31:40,671 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-04 10:31:40,681 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-04 10:31:40,681 - crypto_tracker - INFO - Extracting data from 1 rows...
+2026-10-04 10:31:40,681 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-04 10:31:40,683 - crypto_tracker - INFO - Extracting data from 29 rows...
+2026-10-04 10:31:40,687 - crypto_tracker - INFO - Successfully extracted 10 cryptocurrency records
+2026-10-04 10:31:40,687 - crypto_tracker - INFO - Extracting data from 2 rows...
+2026-10-04 10:31:40,687 - crypto_tracker - INFO - Successfully extracted 1 cryptocurrency records
+2026-10-04 10:31:40,687 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-04 10:31:40,687 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-04 10:31:40,691 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-04 10:31:40,691 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-04 10:31:40,691 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-04 10:31:40,691 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-04 10:31:40,691 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-04 10:31:40,693 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-04 10:31:40,693 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-04 10:31:40,693 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-04 10:31:40,693 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-04 10:31:40,695 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-04 10:31:40,695 - crypto_tracker - WARNING - Navigation attempt 1/3 timed out after 60s: timed out
+2026-10-04 10:31:40,695 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-04 10:31:40,695 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-04 10:31:40,696 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: timed out
+2026-10-04 10:31:40,696 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-04 10:31:40,696 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-04 10:31:40,698 - crypto_tracker - WARNING - Navigation attempt 3/3 timed out after 60s: timed out
+2026-10-04 10:31:40,698 - crypto_tracker - ERROR - Navigation to https://example.invalid failed after 3 attempts. Last error: timed out
+2026-10-04 10:31:40,698 - crypto_tracker - INFO - Closing Chrome WebDriver...
+2026-10-04 10:31:40,698 - crypto_tracker - INFO - Chrome WebDriver closed successfully
+2026-10-04 10:31:40,700 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-04 10:31:40,700 - crypto_tracker - WARNING - Navigation attempt 1/3 failed: net::ERR_CONNECTION_TIMED_OUT
+2026-10-04 10:31:40,700 - crypto_tracker - INFO - Waiting 0s before retry 2/3...
+2026-10-04 10:31:40,702 - crypto_tracker - INFO - Navigation attempt 2/3: loading https://example.invalid
+2026-10-04 10:31:40,702 - crypto_tracker - WARNING - Navigation attempt 2/3 timed out after 60s: page load timed out
+2026-10-04 10:31:40,702 - crypto_tracker - INFO - Waiting 0s before retry 3/3...
+2026-10-04 10:31:40,702 - crypto_tracker - INFO - Navigation attempt 3/3: loading https://example.invalid
+2026-10-04 10:31:40,704 - crypto_tracker - INFO - Page navigation completed
+2026-10-04 10:31:40,704 - crypto_tracker - INFO - Navigation attempt 1/3: loading https://example.invalid
+2026-10-04 10:31:40,704 - crypto_tracker - INFO - Page navigation completed
+2026-10-04 10:31:40,708 - validation - INFO - Validation finished: 1 valid, 0 rejected out of 1 scraped records
+2026-10-04 10:31:40,708 - validation - WARNING - Skipped duplicate coin in this scrape: alpha one
+2026-10-04 10:31:40,708 - validation - INFO - Validation finished: 2 valid, 0 rejected out of 3 scraped records
+2026-10-04 10:31:40,708 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-04 10:31:40,708 - validation - INFO - Validation finished: 1 valid, 2 rejected out of 3 scraped records
+2026-10-04 10:31:40,713 - validation - INFO - Validation finished: 0 valid, 1 rejected out of 1 scraped records
+2026-10-04 10:31:40,713 - validation - INFO - Validation finished: 0 valid, 0 rejected out of 0 scraped records
+2026-10-04 10:31:40,716 - validation - INFO - Validation finished: 3 valid, 0 rejected out of 3 scraped records
+2026-10-04 10:55:38,997 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 10:55:39,015 - __main__ - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 11:01:36,645 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 11:01:36,672 - __main__ - INFO - Dashboard loaded 80 records and 8 distinct snapshots
+2026-10-04 11:04:12,301 - crypto_tracker - INFO - Read 80 historical records from E:\price\data\crypto_prices.csv
+2026-10-04 11:04:12,317 - __main__ - INFO - Dashboard loaded 80 records and 8 distinct snapshots
